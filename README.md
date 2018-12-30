@@ -34,11 +34,11 @@ Monte Carlo method is widely used to work with probability distribution , but al
 Markov Chain is a sequence ("chain") in which probability of the event depends only on the state of the previous event.
 
 # Markov Chain Monte Carlo 
-It is used in sampling from probaility distribution and connects both methods presentes above.
+It is used in sampling from probaility distribution and connects both methods presented above.
 
 By creating a markov chain we can get a sample from desired distribution after number of steps in the right direction (accepting and rejecting values explained below). The more the steps , the closer distribution of our sample is to desired distribution.
 
-# Techniques used in the algorithm
+# Functions used in the algorithm
 
 θ
 prop is our candidate step. The Metropolis algorithm calls for
@@ -138,7 +138,3 @@ curr
 1
 .
 0)
-
-Output of program showing random walk progress with standard deviation 0.05 an number of samples 200.
-
-
