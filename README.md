@@ -138,3 +138,12 @@ curr
 1
 .
 0)
+
+# References
+
+Patrick Ford (2018). MCMC Algorithms, Beyond grid and quadratic aproxiamtion.
+
+Siddhartha Chib; Edward Greenberg (1995). Understanding the Metropolis-Hastings Algorithm, The American Statistician
+, Vol. 49, No. 4. (Nov., 1995), pp. 327-335 .
+
+Christian P Robert, Victor Elvira, Nick Tawn, Changye Wu (2018). Accelerating MCMC Algorithms.
