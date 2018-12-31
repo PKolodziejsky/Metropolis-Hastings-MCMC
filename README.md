@@ -31,7 +31,7 @@ It relies on repeated random sampling to achieve some numerical results.
 Monte Carlo method is widely used to work with probability distribution , but also integration and optimazation.
 
 # Markov Chain
-Markov Chain is a sequence ("chain") in which probability of the event depends only on the state of the previous event.
+Markov Chain is a sequence in which probability of the event depends only on the state of the previous event.
 
 # Markov Chain Monte Carlo 
 It is used in sampling from probaility distribution and connects both methods presented above.
