@@ -36,7 +36,7 @@ Markov Chain is a sequence in which probability of the event depends only on the
 # Markov Chain Monte Carlo 
 It is used in sampling from probaility distribution and connects both methods presented above.
 
-By creating a markov chain we can get a sample from desired distribution after number of steps in the right direction (accepting and rejecting values explained below). The more the steps , the closer distribution of our sample is to desired distribution.
+By creating a markov chain we can get a sample from desired distribution after number of steps (accepting and rejecting new values explained below). The more the steps , the closer distribution of our sample is to desired distribution.
 
 # Functions used in the algorithm
 
