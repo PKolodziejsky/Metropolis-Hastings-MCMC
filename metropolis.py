@@ -34,7 +34,7 @@ def metropolis(samples_num ,theta_seed ,sd ):
         posterior_prop = stats.beta(a,b).pdf(theta_prop)*stats.binom(n=x,p=theta_prop).pmf(y)
         posterior_curr = stats.beta(a,b).pdf(theta_curr)*stats.binom(n=x,p=theta_curr).pmf(y)
 
-        #Propability of accepting
+        #Probability of accepting
         accept_theta_prop = min(1.0, posterior_prop/posterior_curr)
 
         if (accept_theta_prop>random):
